@@ -1,0 +1,65 @@
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.seccion-redes{
+    display: flex;
+    justify-content:center;
+    padding: 1rem 0 0 0;
+
+}
+
+.icono-footer{
+    width: 48px;
+    height: 48px;
+}
+
+.icono-footer:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    color: white;
+
+    font-size: 0.9rem;
+    }
+
+.reservas{
+    color: white;
+    margin: 0;
+    padding: 1rem;
+    width: 90%;
+    text-align: center;
+    font-family:'Cinzel', sans-serif; ;
+}
+
+    .frase-container {
+        display: flex;
+        justify-content: flex-start;
+        overflow: hidden;
+      }
+      
+      .frase {
+        color: red;
+        font-family: 'Cinzel', sans-serif;
+        animation: rebote 4s linear infinite; /* Ajusta la duración y el estilo de la animación según tus preferencias */
+      }
+      
+      @keyframes rebote {
+        20%, 100% {
+          transform: translateX(0);
+        }
+        20% {
+          transform: translateX(135%); /* Mueve la frase hacia la derecha */
+        }
+      }
+      
+
+
+
