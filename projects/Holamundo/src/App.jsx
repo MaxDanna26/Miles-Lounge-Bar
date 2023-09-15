@@ -1,14 +1,22 @@
 import React from 'react';
 import './App.css';
-import { TwitterFollowCard } from './TwitterFollowCard'
+
+import Header  from './shared/Header';
+import Home from './Pages/home';
+import About from './Pages/about';
+import Footer from './shared/Footer';
+
 export function App() {
+
     return (
         <>
-        <section className='App'>
-            <TwitterFollowCard isFollowing={true} userName='midudev' Name='Miguel Angel Duran'  />
-            <TwitterFollowCard isFollowing={true} userName='pheralb' Name='Miguel Angel Duran'  />
-            <TwitterFollowCard userName='elonmusk' Name='Miguel Angel Duran'  />
-        </section>
+            <Header />
+
+            <About />
+
+            <Home />
+
+            <Footer />
         </>
     )
 }
