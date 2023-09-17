@@ -1,22 +1,27 @@
 import React from 'react';
-import './App.css';
 
-import Header  from './shared/Header';
-import Home from './Pages/home';
-import About from './Pages/about';
-import Footer from './shared/Footer';
+import Home from './Pages/Home';
+import Contact from './Pages/contact';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
+import './App.css';
 
 export function App() {
 
     return (
         <>
-            <Header />
+        <BrowserRouter>
+            <Routes>
+                <Route path='/home' element={<Home/>}/>
+                    <Route index element={<Home/>}/>
+                    <Route path='*' element={<p>ERROR 404.</p>}/>
 
-            <About />
+                <Route path='/contact' element={<Contact/>}/>
+            </Routes>
 
-            <Home />
+        </BrowserRouter>
 
-            <Footer />
+
         </>
     )
 }
