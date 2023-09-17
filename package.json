@@ -1,13 +1,12 @@
 {
-  "homepage": "https://MaxDanna26.github.io/AprendiendoReact",
+  "homepage":"https://MaxDanna26.github.io/AprendiendoReact",
   "name": "aprendiendoreact",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
+    "build": "vite build",
     "dev": "vite",
-    "build": "gh-pages -d build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
