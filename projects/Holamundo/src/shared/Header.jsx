@@ -41,7 +41,7 @@ function Header() {
           <i className="fas fa-bars"></i>
         </div>
       )}
-      {menuVisible && <setMenuVisible />}
+
     </div>
 
     </header>
