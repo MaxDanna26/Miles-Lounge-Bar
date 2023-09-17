@@ -1,5 +1,6 @@
 import './header.css' 
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 
 function Header() {
@@ -26,10 +27,13 @@ function Header() {
       {menuVisible ? (
         <div className="close-icon" onClick={closeMenu}>
           <i className="fas fa-times"></i>
+
           <ul>
-            <a href='#home'><li>Home</li></a>
-            <li>Cocktails</li>
-            <li>Contact</li>
+
+            <Link to='/home'>Home</Link>
+            <Link to='/cocktail'>Cocktails</Link>
+            <Link to='/contact'>Contact</Link>
+
           </ul>
         </div>
       ) : (
@@ -37,7 +41,7 @@ function Header() {
           <i className="fas fa-bars"></i>
         </div>
       )}
-      {menuVisible && <setMenuVisible />}
+
     </div>
 
     </header>

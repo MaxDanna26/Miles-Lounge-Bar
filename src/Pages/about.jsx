@@ -8,9 +8,9 @@ function About() {
 
     return (
     <>         
-        <div class="video-container">
+        <div className="video-container">
             <video alt='Agustin Flirt de vasos cocktails' src={videoAgus} preload='auto' autoPlay loop></video> 
-            <div class="overlay"></div>
+            <div className="overlay"></div>
         </div>
 
         <img className='imgHeader' src={imgHeader} alt='Imagen de un cocktail'/>

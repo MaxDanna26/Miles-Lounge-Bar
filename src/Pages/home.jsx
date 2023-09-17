@@ -3,12 +3,19 @@ import './home.css'
 import imgCoctelera from "../Img/imgCoctelera.jpg"
 import salonGrande from "../Img/salonGrande.jpg"
 import sour from "../Img/sour.jpg"
-import consolaDj from "../Img/consolaDj.jpg";
+import consolaDj from "../Img/consolaDj.jpg"
+import Header from '../shared/Header'
+import Footer from '../shared/Footer'
+import About from './About'
 
 
 function Home() {
   return (
     <>          
+
+        <Header />
+
+        <About/>
 
     <section id='home' className='mainSection'>
     
@@ -59,6 +66,10 @@ function Home() {
     </div>
 
     </section>
+
+    <Footer />
+
+
 
     </>
 
