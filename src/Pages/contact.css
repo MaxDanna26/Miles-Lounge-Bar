@@ -1,0 +1,86 @@
+.titularContact{
+    padding: 1rem;
+    font-family: 'Cinzel', sans-serif;
+}
+
+select{
+    border-radius: .2rem;
+    background-color: black;
+    text-align: center;
+    padding: 0.4rem;
+    color: white;
+    font-family:'Cinzel', sans-serif;
+}
+
+select:hover{
+    border: solid 2px rgb(213, 39, 39);
+    scale: 1.1;
+    transition: 0.3s;
+}
+
+.boxGeneral{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 5rem;
+    text-align: center;
+    gap: 2rem;
+
+}
+
+iframe{
+    width: 100%;
+}
+
+.where{color: white;
+    font-family: 'Cinzel', sans-serif;}
+
+/* Estilo para el contenedor principal */
+.contenedor {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Estilo para la fotografía */
+  .contenedor img {
+    max-width: 100%;
+    display: block;
+
+    margin-bottom: 3rem;
+  }
+  
+  /* Estilo para el recuadro superpuesto */
+  .recuadro {
+    position: absolute;
+    border: 1px white solid;
+    top: 75%; /* Ajusta la posición superior según tus necesidades */
+    right: 22%; /* Ajusta la posición 
+    izquierda según tus necesidades */
+    background-color: #8a0002; /* Fondo semitransparente */
+    color: white; /* Color del texto */
+    padding: 0.4rem;
+    font-weight: bold;
+    border-radius: 1rem;
+  }
+
+
+  
+  /* Estilo para el texto dentro del recuadro */
+  .recuadro p {
+    font-family:  'Cinzel', sans-serif ;
+  }
+  
+  .imgEventos{
+    width: 100%;
+  }
+
+  .reservasContainer{
+    display: flex;
+    padding: 1rem;
+    color: white;
+  }
+  
+  .textReservas{
+    font-weight: bold;
+
+  }

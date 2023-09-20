@@ -1,7 +1,9 @@
-video{
+.maniqui{
     width: 100%;
     height: auto;
+    margin-top: 3rem;
     border-bottom: 1px solid white;
+
 }
 .video-container {
   position: relative;
@@ -30,6 +32,7 @@ text-align: center;
 
 margin: 15% 17%;
 
+padding-top: 2rem;
 color: white;
 font-family: 'Open Sans', sans-serif;
 font-weight: 300;

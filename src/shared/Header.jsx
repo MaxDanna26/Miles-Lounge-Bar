@@ -18,11 +18,11 @@ function Header() {
   return (
     <>          
     <header>
-
+    <Link to='/home'>
         <h1>
-            MILES LOUNGE BAR
+          MILES LOUNGE BAR
         </h1>
-
+    </Link>
     <div className="header">
       {menuVisible ? (
         <div className="close-icon" onClick={closeMenu}>

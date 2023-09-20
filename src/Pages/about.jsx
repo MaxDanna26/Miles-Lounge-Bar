@@ -1,15 +1,14 @@
 import './about.css';
 import React from 'react'
-import imgHeader from '../Img/header3.jpg';
-import videoAgus from '../Img/FlirtAgus.mp4'
-
+import imgHeader from '../Img/header3.jpg'
+import maniqui from '../Img/maniqui.jpg'
 
 function About() {
 
     return (
     <>         
         <div className="video-container">
-            <video alt='Agustin Flirt de vasos cocktails' src={videoAgus} preload='auto' autoPlay loop></video> 
+            <img className='maniqui' alt='Maniqui de decoracion del bar' src={maniqui} preload='auto' autoPlay loop></img> 
             <div className="overlay"></div>
         </div>
 
@@ -29,6 +28,8 @@ function About() {
             </div>
             
         </section>
+
+
     </>
 
 

@@ -33,14 +33,13 @@ header{
     gap: 2rem;
 }
 
-li{
+li,a{
     list-style: none;
     color: white;
-    font-weight: bold;
-    z-index: 10;
+    font-family: 'Cinzel', sans-serif;;
 }
    
-li:hover{
+a:hover{
     scale: 1.3;
     transition: 0.4s;
     cursor: pointer;
