@@ -31,7 +31,7 @@ function Header() {
           <ul>
 
             <Link to='/home'>Home</Link>
-            <Link to='/cocktail'>Cocktails</Link>
+            <Link to='/cocktails'>Cocktails</Link>
             <Link to='/contact'>Contact</Link>
 
           </ul>

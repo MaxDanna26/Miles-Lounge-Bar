@@ -5,6 +5,7 @@ import imgCoctelera from "../Img/imgCoctelera.jpg"
 import salonGrande from "../Img/salonGrande.jpg"
 import sour from "../Img/sour.jpg"
 import consolaDj from "../Img/consolaDj.jpg"
+import { Link } from 'react-router-dom'
 
 function mainSection() {
   return (
@@ -51,10 +52,10 @@ function mainSection() {
         <div className='InfoText'>
             <h2>Eventos Especiales</h2>
             <p> En Miles no faltan los eventos emocionantes. Desde noches de DJ en vivo hasta fiestas temáticas, siempre hay algo emocionante en nuestro calendario que te mantendrá entretenido. </p>
-
-
+            <Link className='aEventos' to='/contact'><a >Ver eventos..</a></Link>
         </div>
 
+     
 
     </div>
 

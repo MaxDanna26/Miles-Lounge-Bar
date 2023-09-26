@@ -8,7 +8,7 @@ function About() {
     return (
     <>         
         <div className="video-container">
-            <img className='maniqui' alt='Maniqui de decoracion del bar' src={maniqui} preload='auto' autoPlay loop></img> 
+            <img className='maniqui' alt='Maniqui de decoracion del bar' src={maniqui}></img> 
             <div className="overlay"></div>
         </div>
 

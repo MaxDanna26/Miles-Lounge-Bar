@@ -1,6 +1,5 @@
 import React from 'react'
 import './home.css' 
-
 import Header from '../shared/Header'
 import Footer from '../shared/Footer'
 import About from './About'
